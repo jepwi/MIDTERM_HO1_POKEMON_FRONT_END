@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f8ff;
+    background-color: #e6f7ff; /* light blue background */
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-    color: #ff6347;
+    color: #3f51b5; /* indigo */
 }
 
 form {
@@ -16,14 +16,14 @@ form {
 
 input {
     padding: 10px;
-    border: 2px solid #ff6347;
+    border: 2px solid #3f51b5; /* indigo */
     border-radius: 5px;
     margin-right: 10px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #ff6347;
+    background-color: #3f51b5; /* indigo */
     color: white;
     border: none;
     border-radius: 5px;
@@ -31,7 +31,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff4500;
+    background-color: #303f9f; /* darker indigo */
 }
 
 #pokemon-details {
